@@ -1,13 +1,16 @@
 # multi-Label-TextClassification
 多标签文本分类
 
+在此感谢苏神博客中的一些思路和实现
+https://kexue.fm/category/Big-Data
+
 ## 数据准备
 > 多个标签以'，'逗号分割
 
 
 ## 模型结构
 
-* 以下均适用albert-tiny预训练模型
+* 以下均适用albert-tiny预训练模型. 下载地址：https://github.com/brightmart/albert_zh
 > return_sequences：默认 False。在输出序列中，返回单个 hidden state值还是返回全部time step 的 hidden state值。 False 返回单个， true 返回全部。
 
 * 测试集：随机选取10w条样本做测试
