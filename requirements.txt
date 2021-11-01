@@ -1,0 +1,12 @@
+keras_layer_normalization==0.14.0
+keras_multi_head==0.27.0
+numpy==1.16.4
+keras_bert==0.83.0
+keras_transformer==0.38.0
+tensorflow==1.14.0
+pandas==0.23.4
+Keras==2.2.4
+keras_adaptive_softmax==0.6.0
+keras_pos_embd==0.11.0
+keras_position_wise_feed_forward==0.6.0
+scikit_learn==0.24.0
