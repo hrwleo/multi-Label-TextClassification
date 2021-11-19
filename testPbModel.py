@@ -30,7 +30,6 @@ def main():
     tokenizer = OurTokenizer(token_dict)
     text = "你好，能帮我详细介绍一下安元佳苑六区吗？"
 
-    # 利用BERT进行tokenize
     maxlen = 64
     text = text[:maxlen]
     x1, x2 = tokenizer.encode(first=text)
