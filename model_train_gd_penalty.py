@@ -2,7 +2,7 @@
 
 import json
 import codecs
-from bert4keras.backend import K
+import keras.backend as K
 import keras
 import pandas as pd
 import numpy as np
