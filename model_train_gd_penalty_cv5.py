@@ -167,7 +167,7 @@ def create_cls_model(num_labels):
     # cls_layer = Reshape((-1, 312))(cls_layer)
     # bilstm = Bidirectional(LSTM(128, return_sequences=False), merge_mode='concat')(cls_layer)
     p = Dense(num_labels, activation=None)(cls_layer)  # 多分类
-    p = Lambda(lambda x: x ** 3)(p)
+    # p = Lambda(lambda x: x ** 3)(p)
 
     model = Model([x1_in, x2_in], p)
 
